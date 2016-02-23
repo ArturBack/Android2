@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void wyswietlMape(View widok)
     {
         final Intent intencja2 = new Intent(this,GoogleActivity.class);
+        
         startActivity(intencja2);
     }
 }
